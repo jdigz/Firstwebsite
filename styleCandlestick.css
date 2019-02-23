@@ -1,0 +1,9 @@
+.box > img{
+    width: 100%;
+}
+
+.box {
+    background-color: #444;
+    padding: 130px;
+    margin: 10px;
+}

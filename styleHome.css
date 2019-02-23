@@ -1,0 +1,125 @@
+
+/********************/
+/*HERO SECTION*/
+/********************/
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60vh; /* Percentage of View Port*/
+    background:#222;
+    z-index: 10;
+}
+
+.hero-section::before {
+    content: " ";
+    background-image: url("./img/pexels-photo-241544.jpeg"); 
+    background-position: 50% center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: .5;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 0;
+}
+
+/********************/
+/* BANNER           */
+/********************/
+.text-block h1 {
+    text-align: center;
+    line-height: 1.2;
+    font-weight: 800;
+    padding-bottom: 50px;
+}
+
+.statement {
+    height: 6em;
+    justify-content: center;
+}
+
+/********************/
+/*HOOK STATEMENT    */
+/********************/
+.all-in-one-place {
+    background-color: #fff;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 7;
+}
+.all-in-one-place::before {
+    content: "";
+    position: absolute;
+    background-color: #00bd9c;
+    width: 85%;
+    height: 85%;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.container-hs {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.hook-section {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    width: 100%;
+    position: relative;
+}
+
+.hook-image{
+    width: 100px;
+    height: 100px;
+}
+
+.hook-text{
+    margin: 120px 0px 120px 50px;
+}
+
+.hook-text h3 {
+}
+
+.hook-test p {
+    font-size: 1rem;
+
+}
+
+/********************/
+/* Project Grid     */
+/********************/
+.grid-wrapper {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+}
+
+
+.box > img{
+    width: 100%;
+}
+
+.box {
+    background-color: #444;
+    padding: 130px;
+    margin: 20px;
+}
+
+/*EXTRA*/
+/* COVER */
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30vh; /* Percentage of View Port*/
+}
